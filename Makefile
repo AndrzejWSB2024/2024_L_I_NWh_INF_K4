@@ -5,6 +5,5 @@ lint:
 	flake8 hello_world test
 test:
 	PYTHONPATH=. py.test --verbose -s
-.PHONY: test
 run:
 	python main.py
