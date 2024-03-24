@@ -21,7 +21,7 @@ def get_formatted(msg, imie, format):
 
 
 def format_to_json(msg, imie):
-    return ('{ "imie":"' + imi e + '", "msg":"' +
+    return ('{ "imie":"' + imie + '", "msg":"' +
             msg + '"}')
 
 
